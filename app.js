@@ -3,8 +3,8 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-http.listen(8000);
-console.log('Server running at http://127.0.0.1:8000/');
+http.listen(3333);
+console.log('Server running at http://127.0.0.1:3333/');
 
 var users = {};
 
